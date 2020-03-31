@@ -1,0 +1,40 @@
+.blog 
+  background: #000000 url(../img/blog/bg.png) no-repeat 
+  background-size: cover 
+  padding-bottom: 80px 
+  & .blog-wrap 
+    padding: 110px 0 
+    display: flex 
+    justify-content: space-between
+    & .block 
+      text-align: center
+      width: 330px 
+      & img 
+        width: 76px 
+        height: 76px
+      & .content 
+        margin-top: 25px 
+        & h5 
+          color: #ffffff
+          font-size: 22px 
+          font-weight: 500
+          letter-spacing: 0.88px 
+        & .author 
+          margin-top: 10px 
+          color: #ff6d6d 
+        & .desc 
+          margin-top: 35px 
+          color: rgba(#ffffff,.66)
+          +exo_reg 
+          font-style: italic
+          letter-spacing: 0.64px 
+          line-height: 1.63 
+  & .brands 
+    display: inline-flex
+    width: 100%
+    justify-content: space-between 
+    align-items: center
+    & img 
+      height: 100% 
+
+       

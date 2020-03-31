@@ -1,0 +1,74 @@
+.contact 
+  background: #323969
+  padding: 90px 0 
+  & .title 
+    text-align: center
+    & h6 
+      text-transform: uppercase
+      color: #ff6d6d  
+      font-weight: 500
+      letter-spacing: 3.2px 
+    & h5 
+      margin-top: 10px 
+      color: #ffffff
+      font-size: 40px 
+      font-weight: 500
+      letter-spacing: 1.6px 
+  & .form 
+    margin-top: 95px 
+    & form 
+      display: flex 
+      justify-content: space-between
+      & input 
+        border: 1px solid #ffffff
+        border-radius: 3px 
+        opacity: .5
+        width: 260px 
+        height: 50px 
+        padding-left: 25px 
+        color: #f6f5f3 
+        letter-spacing: 0.64px 
+        +exo_reg 
+        background: #484D77
+        &::placeholder 
+          text-transform: uppercase
+          color: #f6f5f3 
+          +exo_reg 
+      & .btn 
+        position: relative
+        & button 
+          background: #ff6d6d  
+          width: 260px 
+          height: 50px 
+          border-radius: 3px 
+          text-transform: uppercase
+          box-shadow: 0 3px 3px 0 rgba(14,15,15,.25)
+          +exo_reg 
+          color: #f6f5f3
+          letter-spacing: 0.64px 
+          transition: 0.3s linear 
+          &:hover
+            opacity: .7
+        & .overlay 
+          position: absolute
+          top: -45px 
+          text-align: center
+          width: 100%
+          background: url(../img/contact/1.png) no-repeat 
+          background-position: 0% 100% 
+          & p 
+            +exo_reg 
+            color: #f6f5f3 
+            letter-spacing: 0.64px 
+  & .terms 
+    text-align: center
+    margin-top: 50px  
+    +exo_reg 
+    letter-spacing: 0.64px 
+    color: rgba(246,245,243,.6)
+    & a 
+      color: rgba(246,245,243,.6)
+      text-decoration: underline
+
+
+
