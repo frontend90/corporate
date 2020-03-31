@@ -1,0 +1,111 @@
+.footer 
+  padding: 90px 0 
+  & .footer-wrap 
+    display: flex 
+    justify-content: space-between
+    & .block 
+      & .title 
+        display: flex 
+        align-items: center
+        & h4
+          +exo_reg 
+          font-size: 27px 
+          color: #2c2f49
+        & .img 
+          margin-left: 2px 
+          position: relative
+        & h6 
+          position: absolute
+          top: 50%
+          left: 3px 
+          transform: translateY(-50%)
+          color: #ffffff
+          +exo_reg 
+          font-size: 27px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        & p 
+          +exo_med 
+          font-size: 14px 
+          letter-spacing: 0.56px 
+          line-height: 1.86 
+          & a 
+            color: rgba(40,40,40,.66)
+            transition: 0.3s linear 
+            &:hover
+              text-decoration: underline
+      & h5 
+        font-size: 22px 
+        +exo_med 
+        letter-spacing: 0.88px 
+        color: #282828
+        font-weight: 500 
+        margin-bottom: 20px 
+      & .content 
+        & a 
+          display: block 
+          +exo_reg 
+          font-size: 14px 
+          letter-spacing: 0.56px 
+          line-height: 2.14 
+          color: rgba(40,40,40,.66)
+          transition: 0.3s linear 
+          &:hover
+            color: #ff6d6d  
+    & .newsletter
+      & .form 
+        & form 
+          display: flex 
+          align-items: center
+          & input 
+            border: 1px solid #4e4e5e 
+            width: 210px 
+            height: 50px 
+            border-top-left-radius: 3px 
+            border-bottom-left-radius: 3px 
+            opacity: .4
+            background: rgba(#8d8d8d,.2)
+            padding-left: 25px 
+            +exo_reg 
+            letter-spacing: 0.64px 
+            color: rgba(#000000,.4)
+            &::placeholder 
+              text-transform: uppercase
+              +exo_reg 
+              letter-spacing: 0.64px 
+              color: rgba(#000000,.4)
+          & .btn 
+            & button 
+              width: 50px 
+              height: 50px 
+              background: #ff6d6d 
+              border-top-right-radius: 3px 
+              border-bottom-right-radius: 3px 
+              box-shadow: 0 3px 3px 0 rgba(14,15,15,.25)
+              &:hover .fas 
+                transform: translate(40px,-30px)
+              & .fas 
+                +solid 
+                font-size: 22px 
+                color: #ffffff
+                transition: .3s linear 
+        & .social 
+          text-align: center
+          margin-top: 20px 
+          & a 
+            margin-left: 30px 
+            &:first-of-type
+              margin-left: 0
+            & .fab 
+              +brand 
+              font-size: 20px 
+              color: rgba(40,40,40,.66)
+              transition: 0.3s linear 
+              &:hover
+                color: #ff6d6d  
+
+
+
+
+
