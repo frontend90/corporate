@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'fa-brands-400';
+  src: url(../fonts/fa-brands-400.ttf);
+}
+
+@font-face {
+  font-family: 'fa-solid-900';
+  src: url(../fonts/fa-solid-900.ttf);
+}
+
+@font-face {
+  font-family: 'Exo-Medium';
+  src: url(../fonts/Exo-Medium.otf);
+}
+
+@font-face {
+  font-family: 'Exo-Regular';
+  src: url(../fonts/Exo-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Exo-Thin';
+  src: url(../fonts/Exo-Thin.otf);
+}
+
+body {
+  color: rgba(40, 40, 40, 0.66);
+  font-size: 16px;
+  font-family: 'Exo-Medium';
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  background: url(../img/header/bg.png) no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.header .title {
+  text-align: center;
+  padding-top: 220px;
+}
+
+.header .title h5 {
+  font-size: 60px;
+  font-family: 'Exo-Thin';
+  letter-spacing: 2.4px;
+  color: #282828;
+  font-weight: 100;
+  line-height: 1.25;
+}
+
+.header .title .btn {
+  margin-top: 140px;
+}
+
+.header .title .btn button {
+  text-transform: uppercase;
+  background: #ff6d6d;
+  width: 190px;
+  height: 50px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-family: 'Exo-Regular';
+  letter-spacing: 3.2px;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.header .title .btn button:hover {
+  opacity: .7;
+}
+
+.header .title p {
+  margin-top: 15px;
+  font-family: 'Exo-Regular';
+  font-size: 14px;
+  letter-spacing: 0.56px;
+}
+/*# sourceMappingURL=style.css.map */
