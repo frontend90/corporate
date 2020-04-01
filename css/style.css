@@ -481,6 +481,8 @@ body {
 
 .footer {
   padding: 90px 0;
+  background: url(../img/footer/bg.png) no-repeat;
+  background-position: 100% 100%;
 }
 
 .footer .footer-wrap {
@@ -541,6 +543,7 @@ body {
   -webkit-transition: 0.3s linear;
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
+  display: inline-block;
 }
 
 .footer .footer-wrap .block .content p a:hover {
